@@ -1,0 +1,23 @@
+.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+/* .row, .col {
+    border: 1px solid black;
+} */
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.col {
+    flex: 1;
+}
+
+.coloured {
+    background: green;
+}
